@@ -1,8 +1,96 @@
-h1{
-    background-color: blue;
-    color: red;
+
+
+
+.container{
+    background-image: linear-gradient(to right ,rgba(0,0,0,255),white);
 }
 
-p{
-    text-align: center;
+
+
+
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: rgba(0,0,0,255);
+}
+
+.navFlex {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: flex-end;
+
+
+}
+
+
+
+.navFlex li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: yellow;
+    
+
+}
+
+.navFlex li a {
+    text-decoration: none;
+}
+
+
+
+
+.sectionFlex {
+    display: flex;
+    background-image: linear-gradient( to left, white,rgba(0,0,0,255));
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    border: 1px solid black;
+    width: 100%;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.sectionFlex p {
+    background-color: yellow;
+    width: 25%;
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+.itemsFlex {
+    display: flex;
+    background-image: linear-gradient(to right ,rgba(0,0,0,255),white);
+    flex-direction: row;
+    justify-content: center;
+    border: 3px solid white;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    background-image: linear-gradient(to right ,rgba(0,0,0,255),white);
 }
